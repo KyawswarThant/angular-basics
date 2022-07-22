@@ -1,0 +1,22 @@
+{
+  "candy": [
+    {
+      "id": 1,
+      "name": "Coffee Candy",
+      "description": "taste like coffee",
+      "price": "2"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Candy",
+      "description": "taste like choco",
+      "price": "3"
+    },
+    {
+      "id": 3,
+      "name": "Matcha Candy",
+      "description": "taste like matcha",
+      "price": "5"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<div *ngIf="candy" class="candy-detail">
+  <h1>{{ candy.name }}</h1>
+  <p>{{ candy.description }}</p>
+  <a routerLink="edit">
+    <button class="btn candy-edit-btn">Edit</button>
+  </a>
+  <button class="btn candy-delete-btn btn" (click)="deleteCandy(candy.id)">Delete</button>
+</div>

@@ -1,0 +1,17 @@
+<div *ngIf="candy" class="candy-edit-form">
+  <form [formGroup]="editForm" (ngSubmit)="updateCandy()">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" formControlName="name">
+    </div>
+    <div>
+      <label for="description">Description</label>
+      <input type="text" name="description" id="description" formControlName="description">
+    </div>
+    <div>
+      <label for="price">Price</label>
+      <input type="text" name="price" id="price" formControlName="price">
+    </div>
+    <button class="btn candy-edit-btn" type="submit">Update</button>
+  </form>
+</div>

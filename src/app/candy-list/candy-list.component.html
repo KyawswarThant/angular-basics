@@ -1,0 +1,11 @@
+<div>
+  <h3 class="candy-list-header">Candy Lists</h3>
+  <div *ngFor="let candy of candies | async">
+    <a [routerLink]="['candy', candy.id]">
+      <h5>{{ candy.name }}</h5>
+    </a>
+  </div>
+  <a routerLink="add_candy">
+    <button>Add Candy</button>
+  </a>
+</div>

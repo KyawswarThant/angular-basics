@@ -1,0 +1,9 @@
+.btn {
+	cursor: pointer;
+}
+.candy-detail {
+  text-align: center;
+}
+.candy-edit-btn {
+  margin-right: 5px;
+}
